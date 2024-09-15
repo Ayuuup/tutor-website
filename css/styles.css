@@ -72,7 +72,7 @@ nav .hamburger {
         top:15vh;
         position: absolute;
         width: 100%;
-        left: 0;
+        left: 150%;
         align-items: center;
     }
 
@@ -88,5 +88,9 @@ nav .hamburger {
     }
     nav .hamburger.active :nth-child(3){
         transform: translateY(-10px) rotate(-45deg);
+    }
+
+    .nav-items.active{
+        left: 0;
     }
 }
