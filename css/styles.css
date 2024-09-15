@@ -38,6 +38,11 @@ nav {
     justify-content: space-between;
     height: 7vh;
     align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 50px;
 }
 
 .nav-logo{
