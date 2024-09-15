@@ -65,3 +65,9 @@ nav .hamburger {
     margin: 0 auto;
     padding: 0 2rem;
 }
+
+@media(max-width:768px){
+    .nav-items{
+        flex-direction: column;
+    }
+}
