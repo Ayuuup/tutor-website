@@ -31,3 +31,8 @@ ul{
     background-color: black;
     margin-bottom: 5px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
