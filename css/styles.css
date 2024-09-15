@@ -41,8 +41,7 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
-    padding: 50px;
+
 }
 
 .nav-logo{
@@ -52,7 +51,7 @@ nav {
 
 .nav-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -61,7 +60,35 @@ nav .hamburger {
 }
 
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    width: 80%;
+    padding: 50px;
+}
+
+@media(max-width:768px){
+    .nav-items{
+        flex-direction: column;
+        top:15vh;
+        position: absolute;
+        width: 100%;
+        left: 150%;
+        align-items: center;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    nav .hamburger.active :nth-child(2){
+        opacity: 0;
+    }
+    nav .hamburger.active :nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+    }
+    nav .hamburger.active :nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+    .nav-items.active{
+        left: 0;
+    }
 }
