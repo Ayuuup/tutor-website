@@ -75,6 +75,10 @@ nav .hamburger {
     padding-top: 10rem;
     color: white;
 }
+
+.hero-flex{
+    display: flex
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
