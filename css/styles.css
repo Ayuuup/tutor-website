@@ -52,7 +52,7 @@ nav {
 
 .nav-items {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -69,5 +69,10 @@ nav .hamburger {
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
+        top:15vh;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        align-items: center;
     }
 }
