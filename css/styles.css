@@ -41,6 +41,8 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    width: 80%;
+    padding: 50px;
 
 }
 
@@ -62,6 +64,7 @@ nav .hamburger {
 .container{
     width: 80%;
     padding: 50px;
+    margin:0 auto;
 }
 
 @media(max-width:768px){
