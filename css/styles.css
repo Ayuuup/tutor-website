@@ -16,10 +16,52 @@ body{
     line-height: 1.6;
 }
 
-a{
+nav a{
     text-decoration: none;
 }
 
 ul{
     list-style: none;
+}
+
+.hamburger .bar{
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 50px;
+}
+
+.nav-logo{
+    width: 81px;
+    height: 32px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
