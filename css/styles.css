@@ -76,8 +76,9 @@ nav .hamburger {
     color: white;
 }
 
-.hero-flex{
+.hero .hero-flex{
     display: flex;
+    align-items: center;
 
 }
 
