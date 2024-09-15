@@ -73,6 +73,7 @@ nav .hamburger {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 11rem 2rem 8rem;
+    color: white;
 }
 @media(max-width:768px){
     .nav-items{
