@@ -36,3 +36,8 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
+.nav-logo{
+    width: 81px;
+    height: 32px;
+}
