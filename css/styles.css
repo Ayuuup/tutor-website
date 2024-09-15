@@ -43,3 +43,9 @@ nav {
     width: 81px;
     height: 32px;
 }
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
