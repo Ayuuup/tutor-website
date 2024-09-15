@@ -77,8 +77,22 @@ nav .hamburger {
 }
 
 .hero-flex{
-    display: flex
+    display: flex;
+
 }
+
+.hero-content{
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.hero-image{
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
