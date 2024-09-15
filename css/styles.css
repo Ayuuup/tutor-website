@@ -48,3 +48,7 @@ nav {
     justify-content: space-around;
     gap: 20px;
 }
+
+nav .hamburger {
+    display: none;
+}
