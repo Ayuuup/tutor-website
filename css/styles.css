@@ -60,11 +60,22 @@ nav {
 nav .hamburger {
     display: none;
 }
+/*Utility classes*/
 
 .container{
     width: 80%;
     padding: 50px;
     margin:0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.3rem 2.3rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 32px;
+    background: var(--secondary-color);
+    color: var(--dark-color);
+    cursor: pointer;
 }
 /*Hero*/
 .hero {
@@ -94,6 +105,13 @@ nav .hamburger {
     min-width: 0;
 }
 
+.hero h1{
+    margin-bottom: 1rem;
+}
+
+.hero p{
+    margin-bottom: 1rem;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
