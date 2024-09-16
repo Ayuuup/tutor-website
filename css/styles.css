@@ -93,6 +93,7 @@ nav .hamburger {
     background-size: cover;
     padding-top: 10rem;
     color: white;
+    height: 100vh;
 }
 
 .hero .hero-flex{
