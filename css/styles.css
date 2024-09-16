@@ -111,6 +111,7 @@ nav .hamburger {
     flex-grow: 1;
     flex-basis: 0;
     min-width: 0;
+    width: 100%;
 }
 
 .hero h1{
@@ -147,4 +148,9 @@ nav .hamburger {
     .nav-items.active{
         left: 0;
     }
+    .hero-flex{
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
