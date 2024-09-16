@@ -33,7 +33,6 @@ ul{
 }
 
 nav {
-    background-color: black;
     display: flex;
     justify-content: space-between;
     height: 7vh;
@@ -77,6 +76,14 @@ nav .hamburger {
     color: var(--dark-color);
     cursor: pointer;
 }
+
+
+.btn:hover {
+    background: var(--primary-color);
+    color: #fff;
+    border-color: #fff;
+  }
+
 /*Hero*/
 .hero {
     background-image: url('../images/header-background.jpg');
