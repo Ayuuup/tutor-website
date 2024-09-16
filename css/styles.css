@@ -150,6 +150,13 @@ nav .hamburger {
     gap: 2rem;
 }
 
+/*Chapter cards*/
+.chapter-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
