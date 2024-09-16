@@ -157,6 +157,10 @@ nav .hamburger {
     gap: 2rem;
 }
 
+.chapter-cards img{
+    width: 130px;
+}
+
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
