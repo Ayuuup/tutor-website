@@ -25,6 +25,10 @@ ul{
     list-style: none;
 }
 
+img{
+    width: 100%;
+}
+
 .hamburger .bar{
     display: block;
     width: 20px;
@@ -122,6 +126,9 @@ nav .hamburger {
 .hero p{
     margin-bottom: 1rem;
 }
+
+/*Learn section*/
+
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
