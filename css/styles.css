@@ -170,6 +170,19 @@ nav .hamburger {
     margin-top: 5px;
 }
 
+/*Summary section*/
+.section-lists .list {
+    margin-bottom: 20px;
+}
+
+.list .list-header{
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
