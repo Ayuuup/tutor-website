@@ -198,6 +198,11 @@ nav .hamburger {
     flex-grow: 1;
     flex-basis: 0;
     min-width: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-color);
 }
 @media(max-width:768px){
     .nav-items{
