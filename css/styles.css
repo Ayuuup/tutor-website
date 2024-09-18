@@ -183,6 +183,22 @@ nav .hamburger {
     padding-bottom: 10px;
 }
 
+/*Info section*/
+.info-flex{
+    display: flex;
+}
+
+.info-image{
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.info-content{
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
