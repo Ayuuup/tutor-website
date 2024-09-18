@@ -204,6 +204,14 @@ nav .hamburger {
     gap: 20px;
     background-color: var(--primary-color);
 }
+
+.info-content h2{
+    text-align: center;
+}
+
+.info-content li i {
+    color: var(--secondary-color);
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
