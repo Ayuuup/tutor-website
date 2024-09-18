@@ -221,6 +221,18 @@ nav .hamburger {
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+
+.takeaways-cards .card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card i{
+    color: var(--primary-color);
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
@@ -263,5 +275,9 @@ nav .hamburger {
 
     .info-flex{
         flex-direction: column;
+    }
+
+    .takeaways-cards{
+        grid-template-columns: repeat(2,1fr);
     }
 }
