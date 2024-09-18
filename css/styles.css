@@ -121,7 +121,7 @@ nav .hamburger {
     background-size: cover;
     padding-top: 10rem;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .hero .hero-flex{
@@ -250,5 +250,9 @@ nav .hamburger {
 
     .chapter-cards{
         grid-template-columns: 1fr;
+    }
+
+    .info-flex{
+        flex-direction: column;
     }
 }
