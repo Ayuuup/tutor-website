@@ -25,9 +25,7 @@ ul{
     list-style: none;
 }
 
-img{
-    width: 100%;
-}
+
 
 .hamburger .bar{
     display: block;
@@ -156,6 +154,10 @@ nav .hamburger {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 2rem;
+}
+
+.topic-image img{ 
+    width: 100%;
 }
 
 /*Chapter cards*/
