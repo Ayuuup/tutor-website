@@ -239,6 +239,15 @@ nav .hamburger {
     display: flex;
     gap: 20px;
 }
+
+.details-content{
+    flex-grow: 1;
+    min-width: 0;
+}
+.details-image{
+    flex-grow: 1;
+    min-width: 0;
+}
 .details-heading{
     width: 64px;
     height:5px;
