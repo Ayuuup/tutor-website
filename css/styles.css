@@ -314,4 +314,11 @@ nav .hamburger {
     .takeaways-cards{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .details-flex{
+        flex-direction: column;
+    }
+    .details-image{
+        display: none;
+    }
 }
