@@ -233,6 +233,13 @@ nav .hamburger {
 .card i{
     color: var(--primary-color);
 }
+
+/*Details section*/
+.details-heading{
+    width: 64px;
+    height:5px;
+    background-color: var(--primary-color);
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
