@@ -233,6 +233,40 @@ nav .hamburger {
 .card i{
     color: var(--primary-color);
 }
+
+/*Details section*/
+.details-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.details-content{
+    flex-grow: 1;
+    min-width: 0;
+}
+.details-image{
+    flex-grow: 1;
+    min-width: 0;
+}
+.details-heading{
+    width: 64px;
+    height:5px;
+    background-color: var(--primary-color);
+}
+
+.details-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-button{
+    background-color: #ffc05a;
+    padding: 20px;
+    border-radius: 20px;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
@@ -279,5 +313,12 @@ nav .hamburger {
 
     .takeaways-cards{
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .details-flex{
+        flex-direction: column;
+    }
+    .details-image{
+        display: none;
     }
 }
