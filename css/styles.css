@@ -297,6 +297,12 @@ nav .hamburger {
     gap: 10px;
     text-align: center;
 }
+
+.stats-button{
+    background-color: #ffc05a;
+    padding: 20px;
+    border-radius: 20px;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
