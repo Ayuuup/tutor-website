@@ -273,6 +273,16 @@ nav .hamburger {
     display: flex;
     gap:20px
 }
+
+.stats-image{
+    min-width: 0;
+    flex-grow: 1;
+}
+
+.stats-content{
+    min-width: 0;
+    flex-grow: 1;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
