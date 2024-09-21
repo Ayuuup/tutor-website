@@ -267,6 +267,47 @@ nav .hamburger {
     padding: 20px;
     border-radius: 20px;
 }
+
+/*Stats section*/
+.stats-flex{
+    display: flex;
+    gap:20px
+}
+
+.stats-image{
+    min-width: 0;
+    flex-grow: 1;
+}
+
+.stats-content{
+    min-width: 0;
+    flex-grow: 1;
+}
+
+.stats-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;;
+}
+
+.stats-numbers{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.stats-button{
+    background-color: #ffc05a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.stats .container {
+    background-color: var(--primary-color);
+    color: white;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
@@ -319,6 +360,10 @@ nav .hamburger {
         flex-direction: column;
     }
     .details-image{
+        display: none;
+    }
+
+    .stats-image{
         display: none;
     }
 }
