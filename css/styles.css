@@ -362,4 +362,8 @@ nav .hamburger {
     .details-image{
         display: none;
     }
+
+    .stats-image{
+        display: none;
+    }
 }
