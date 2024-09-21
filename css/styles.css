@@ -291,6 +291,12 @@ nav .hamburger {
     align-items: center;
     gap: 20px;;
 }
+
+.stats-numbers{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
