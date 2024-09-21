@@ -303,6 +303,11 @@ nav .hamburger {
     padding: 20px;
     border-radius: 20px;
 }
+
+.stats .container {
+    background-color: var(--primary-color);
+    color: white;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
