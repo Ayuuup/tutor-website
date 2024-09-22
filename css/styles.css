@@ -339,6 +339,26 @@ nav .hamburger {
     margin-right: auto;
 }
 
+/*Social section*/
+.social {
+    text-align: center;
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.social-icons a{
+    color: white;
+}
+
+.social-icons a:focus{
+    color: var(--secondary-color);
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
