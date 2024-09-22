@@ -350,7 +350,7 @@ nav .hamburger {
     color: white;
 }
 
-.social-icons a:focus{
+.social-icons a:hover{
     color: var(--secondary-color);
 }
 
