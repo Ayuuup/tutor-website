@@ -316,6 +316,12 @@ nav .hamburger {
     gap: 20px;
     align-items: center;
 }
+
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
