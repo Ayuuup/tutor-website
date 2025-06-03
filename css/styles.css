@@ -43,8 +43,9 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 100%;
     padding: 50px;
+    background-color: blue;
 
 }
 
@@ -342,11 +343,12 @@ nav .hamburger {
 @media(max-width:768px){
     .nav-items{
         flex-direction: column;
-        top:15vh;
+        top:7vh;
         position: absolute;
         width: 100%;
         left: 150%;
         align-items: center;
+        background-color: blue;
     }
 
     nav .hamburger {
